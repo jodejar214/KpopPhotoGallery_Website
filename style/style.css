@@ -1,0 +1,115 @@
+body{
+	/**https://www.pinterest.com/pin/311170655481366825/**/
+	background-image: url("../images/background.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	margin: 0;
+	font-family: Verdana, Geneva, sans-serif;
+	text-align: center;
+}
+
+#desc{
+	width: 70%;
+	margin: auto;
+	padding: 15px;
+	background-color: #3399FF;
+	font-size: 22px;
+	border: ridge 10px skyblue;
+	margin-bottom: 30px;
+}
+
+#links{
+	margin-bottom: 50px;
+	font-size: 20px;
+}
+
+#links ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+#links li {
+    float: left;
+    border-right: 1px solid #bbb;
+}
+
+#links li:last-child{
+	border-right: none;
+}
+
+#links li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#links li a:hover {
+    background-color: #111;
+}
+
+.thumbnail{
+	width: 200px;
+	height: 200px;
+	margin: 10px;
+}
+
+.albums{
+	display: inline-block;
+}
+
+.add_form{
+	text-align: left !important;
+	margin: auto;
+	display: inline-block;
+	border: ridge black 5px;
+	padding: 20px;
+}
+
+#editForms form{
+	margin: auto;
+	display: inline-block;
+	border: ridge black 5px;
+	padding: 20px;
+}
+
+.add_form label, #editForms form label{
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.pfile{
+	background-color: white;
+	margin:0;
+	padding:0;
+}
+
+.subtext{
+	padding:0;
+	margin:0;
+	font-size: 14px;
+}
+
+#search .fheader{
+	font-size: 22px;
+	font-weight: bold;
+}
+
+#search label{
+	font-size: 18px;
+}
+
+.submit{
+	width: 120px;
+	height: 30px;
+}
+
+.fullpic{
+	max-width: 80%;
+	max-height: 80%;
+}
